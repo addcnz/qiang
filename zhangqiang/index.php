@@ -1,5 +1,7 @@
 <?php
 
+//×¢áŒ
+
 function __autoload($class){
 	$file = $class.".php";
 	if(is_file($file)){
